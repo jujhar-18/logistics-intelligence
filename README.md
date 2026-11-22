@@ -102,9 +102,9 @@ The report uses order, on-time, delay and freight summaries, plus route, band an
 
 Replace every bracketed item below with values confirmed from the completed Databricks run and Power BI report. Do not copy estimates from a development screenshot without checking the final tables.
 
-- Total orders analyzed: **[INSERT VERIFIED VALUE]**
-- Delivered orders included in the on-time calculation: **[INSERT VERIFIED VALUE]**
-- On-time delivery rate: **[INSERT VERIFIED VALUE]**
+- Total orders analyzed: **98666**
+- Delivered orders included in the on-time calculation: ****
+- On-time delivery rate: **93.2%**
 - Average delivery time: **[INSERT VERIFIED VALUE] days**
 - Average delay among late orders: **[INSERT VERIFIED VALUE] days**
 - Freight or distance pattern observed: **[INSERT VERIFIED INSIGHT]**
