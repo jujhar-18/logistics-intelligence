@@ -1,0 +1,13 @@
+# Include extracted raw source files, but skip duplicate ZIP archives.
+/data/*.zip
+# Skip a nested duplicate weather download left inside the project folder.
+/innov8-logistics-pipeline/
+*.pbix
+*.token
+.env
+__pycache__/
+*.py[cod]
+
+# Local guides and Power BI artifacts are intentionally not part of the GitHub submission.
+docs/
+dashboard/
