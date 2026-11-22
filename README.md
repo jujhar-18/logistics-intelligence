@@ -5,7 +5,7 @@
 
 ## Executive summary
 
-This project builds a small end-to-end data pipeline to study shipment and delivery performance in Brazil. It uses Olist e-commerce order records as the main source, then adds historical weather and public-holiday information as supporting context. Apache Spark on Databricks cleans and combines the data in Bronze, Silver and Gold layers. The Gold outputs support analysis of delivery delays, seller performance, delivery routes and freight efficiency.
+This project builds a  end-to-end data pipeline to study shipment and delivery performance in Brazil. It uses Olist e-commerce order records as the main source, then adds historical weather and public-holiday information as supporting context. Apache Spark on Databricks cleans and combines the data in Bronze, Silver and Gold layers. The Gold outputs support analysis of delivery delays, seller performance, delivery routes and freight efficiency.
 
 The purpose is to help a logistics team ask clear questions about shipment outcomes. The data can show patterns and associations. It cannot prove that a particular weather condition or holiday caused a delay.
 
