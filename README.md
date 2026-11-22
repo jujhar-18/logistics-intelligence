@@ -103,19 +103,19 @@ The report uses order, on-time, delay and freight summaries, plus route, band an
 Replace every bracketed item below with values confirmed from the completed Databricks run and Power BI report. Do not copy estimates from a development screenshot without checking the final tables.
 
 - Total orders analyzed: **98666**
-- Delivered orders included in the on-time calculation: ****
+- Delivered orders included in the on-time calculation: **Not separately reported in the supplied PDFs; the Executive Overview reports 98,666 total orders.**
 - On-time delivery rate: **93.2%**
-- Average delivery time: **[INSERT VERIFIED VALUE] days**
-- Average delay among late orders: **[INSERT VERIFIED VALUE] days**
-- Freight or distance pattern observed: **[INSERT VERIFIED INSIGHT]**
-- Seller or route pattern observed: **[INSERT VERIFIED INSIGHT]**
-- Weather or holiday association observed: **[INSERT VERIFIED INSIGHT; describe as association, not cause]**
+- Average delivery time: **Not separately reported in the supplied PDFs**
+- Average delay among late orders: **10.6 days**
+- Freight or distance pattern observed: **On-time delivery was 95.6% for shipments under 100 km versus 89.6% for shipments of 1,000 km or more; freight-band performance also declined from 95.9% under R$10 to 91.2% at R$50 or more. Distance is estimated from ZIP-prefix averages, not road travel.**
+- Seller or route pattern observed: **The weakest displayed lane with at least 100 orders was SP to AL, at 76.17% on time across 266 orders. São Paulo had 5,027 late orders in the origin-state breakdown, and average seller dispatch time was 3.2 days.**
+- Weather or holiday association observed: **Orders delivered within three days of a holiday were 90.0% on time versus 93.9% on other days; autumn had the most late orders (2,981), while spring had the longest average delay among late orders (16.0 days). These are associations in the dataset, not proof of causation.**
 
-**[INSERT SCREENSHOT: Databricks run showing Bronze, Silver and Gold completed]**
+**Supporting screenshots:** See the accompanying project report and Power BI dashboard screenshots supplied with this submission.
 
-**[INSERT SCREENSHOT: Power BI Executive Overview page]**
 
-**[INSERT SCREENSHOT: Power BI route or seller analysis page]**
+
+
 
 ## Challenges and solutions
 
